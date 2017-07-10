@@ -1,0 +1,296 @@
+#op-content .op-alone {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+    min-height: calc(100vh - 452px);
+    box-sizing: border-box;
+}
+#op-content .op-alone-login {
+    padding: 30px 0;
+    background: #e5e5e5;
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+}
+.op-alone {
+    padding: 30px 0;
+    background: #e5e5e5;
+}
+#op-content .op-alone-login .auto-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+#op-content .op-alone-login .op-login {
+    margin: 0 auto;
+    max-width: 740px;
+    background: #efefef;
+    box-sizing: border-box;
+}
+#op-content .op-login, .op-user-login .op-login {
+    margin: 60px 75px;
+}
+.op-alone .loginWin-container {
+    position: static;
+    margin: 0;
+    box-shadow: none;
+}
+.loginWin-container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -370px;
+    margin-top: -180px;
+    z-index: 9999;
+    background: #efefef;
+    width: 740px;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+}
+.loginWin-container-l {
+    /*border-right: 1px solid #dfdfdf;
+    padding-right: 30px;*/
+    width: 300px;
+    float: left;
+}
+.loginWin-fastlanding-head, .loginWin-head {
+    font-size: 16px;
+    padding: 20px 0;
+    color: #212121;
+}
+.loginWin-inputbox {
+    width: 300px;
+    padding: 5px 0;
+    margin: 0 auto;
+}
+#op-content .op-login .error, .op-user-login .op-login .error {
+    background: #fed9d9;
+}
+.loginWin-input-wrapper {
+    position: relative;
+}
+.loginWin-verifycode-container {
+    position: relative;
+    display: none;
+    overflow: hidden;
+    width: 300px;
+    margin: 5px auto;
+}
+#op-content .op-login input, .op-user-login .op-login input {
+    outline: 0;
+    background: #fcfcfc;
+}
+.loginWin-verifycode-input {
+    width: 100%;
+    height: 35px;
+    padding: 0;
+}
+.loginWin-verifycode-input, .login_win_input {
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 40px;
+    text-indent: 20px;
+    border: none;
+}
+.loginWin-verifycode-img {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.login_win_err_tip {
+    transition: opacity .5s;
+    display: inline-block;
+    line-height: 42px;
+    color: red;
+    font-size: 14px;
+}
+.rememberme {
+    line-height: 42px;
+}
+.loginWin-forget-text, .loginWin-loginnow-text {
+    font-size: 14px;
+    color: #09c;
+    float: right;
+    height: 42px;
+    line-height: 42px;
+    text-decoration: none;
+}
+.rememberme label.check-box-label {
+    visibility: hidden;
+}
+.check-box-label {
+    height: 30px;
+    display: table-cell;
+    color: #1e1e1e;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.check-box-label span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.check-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    margin-right: 6px;
+}
+.login_win_loginBtn {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 52px;
+    font-size: 14px;
+    line-height: 52px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #d70226;
+    background: #eb0028;
+    border-radius: 4px;
+}
+.login_win_loginBtn span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.loginWin-no-account-box {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+}
+.loginWin-loginnow-text {
+    float: none;
+}
+.loginWin-fastlanding {
+    float: right;
+}
+
+#op-content .loginWin-fastlanding a.qq, .loginWin-fastlanding .qq {
+    background: #17b4df;
+    color: #fff;
+}
+.loginWin-fastlanding .qq, .loginWin-fastlanding .wb {
+    display: block;
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+}
+#op-content .loginWin-fastlanding a.qq span, .loginWin-fastlanding .qq span {
+    display: inline-block;
+    background-image: url(../img/user/icons-s3764b6bca5.png);
+    background-repeat: no-repeat;
+    background-position: 0 -1215px;
+    width: 17px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#op-content .loginWin-fastlanding a.wb, .loginWin-fastlanding .wb {
+    margin-top: 10px;
+    background: #fff;
+    color: #333;
+    border: 1px solid #dfdfdf;
+}
+#op-content .loginWin-fastlanding a.wb span, .loginWin-fastlanding .wb span {
+    display: inline-block;
+    background-image: url(../img/user/icons-s3764b6bca5.png);
+    background-repeat: no-repeat;
+    background-position: 0 -1721px;
+    width: 23px;
+    height: 19px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.login_win_input {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+}
+.login_win_loginBtn:hover{
+	background-color: crimson;
+	color: white;
+}
+.loginWin-loginnow-text:hover,.loginWin-forget-text:hover{
+	color: #0099CC;
+}
+.loginWin-fastlanding .qq:hover,
+.loginWin-fastlanding .wb:hover {
+	opacity: .7;
+	transition: opacity .2s
+}
+
+@media screen and (max-width:740px ) {
+	.loginWin-container {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		left: 0;
+		top: 0;
+		padding: 40px 20px;
+	}
+	
+	.loginWin-container-l {
+		border: none;
+		padding-right: 0;
+	}
+	
+	.loginWin-container-l,
+	.loginWin-fastlanding {
+		margin: 0 auto;
+		float: none;
+		width: 300px;
+	}
+	
+	.loginWin-fastlanding .qq,
+	.loginWin-fastlanding .wb {
+		width: 100%;
+	}
+	
+	#op-content .loginWin-fastlanding a.qq span,
+	#op-content .loginWin-fastlanding a.wb span,
+	.loginWin-fastlanding .qq span,
+	.loginWin-fastlanding .wb span {
+		display: inline-block;
+		background-image: url(../img/user/icons-s3764b6bca5.png);
+		background-repeat: no-repeat;
+		-moz-transform: scale(.5);
+		-ms-transform: scale(.5);
+		-webkit-transform: scale(.5);
+	}
+	
+	#op-content .loginWin-fastlanding a.qq span,
+	.loginWin-fastlanding .qq span {
+		background-position: 0 -1235px;
+		width: 34px;
+		height: 40px;
+		transform: scale(.5);
+		-moz-transform-origin: right center 0;
+		-webkit-transform-origin: right center 0;
+		transform-origin: right center 0;
+	}
+	
+	#op-content .loginWin-fastlanding a.wb span,
+	.loginWin-fastlanding .wb span {
+		background-position: 0 -1740px;
+		width: 47px;
+		height: 38px;
+		transform: scale(.5);
+		-moz-transform-origin: right center 0;
+		-webkit-transform-origin: right center 0;
+		transform-origin: right center 0;
+	}
+
+}
